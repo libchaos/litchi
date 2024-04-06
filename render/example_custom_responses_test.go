@@ -8,7 +8,7 @@ package render_test
 // 	"github.com/jvcoutinho/lit"
 // 	"github.com/jvcoutinho/lit/bind"
 // 	"github.com/jvcoutinho/lit/render"
-// 	"github.com/jvcoutinho/lit/validate"
+// 	"github.com/libchaos/litchi/validate"
 // 	"gopkg.in/yaml.v3"
 // )
 
@@ -81,7 +81,7 @@ package render_test
 // 	}
 // }
 
-// func Divide(r *lit.Request) lit.Response {
+// func Divide(r *http.Request) lit.Response {
 // 	req, err := bind.Query[Request](r)
 // 	if err != nil {
 // 		return YAML(http.StatusBadRequest, err)
