@@ -1,2 +1,2 @@
 # litchi
-enhancement chi
+enhancement chi inspired by lit framework
